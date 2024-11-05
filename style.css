@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#guessButton {
+    background-color: white;
+    color: black;
+}
+
+#resetButton {
+    background-color: #ff6b6b;
+    color: red;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+#feedback {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#guesses {
+    font-style: italic;
+    color: red;
+}
+
+#remainingAttempts, #wins, #losses {
+    font-weight: bold;
+    color: white;
+}
